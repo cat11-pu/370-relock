@@ -1,0 +1,15 @@
+{
+  "budget": 2,
+  "bad_owner_code": "E_BAD_OWNER",
+  "held_code": "E_HELD",
+  "not_owner_code": "E_NOT_OWNER",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "holder": "", "depth": 0, "log": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "take", "owner": "a" },
+    { "id": 2, "kind": "take", "owner": "a" },
+    { "id": 3, "kind": "give", "owner": "a" },
+    { "id": 4, "kind": "give", "owner": "a" },
+    { "id": 5, "kind": "take", "owner": "b" }
+  ]
+}
